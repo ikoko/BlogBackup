@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Arvin's blog
-subtitle: 
+title: Name'65
+subtitle: 格物致知
 description:
 author: Name'65
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -26,6 +26,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+favicon: /favicon.ico
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -45,7 +46,7 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
+category_map: iOS,Life
 tag_map:
 
 # Date / Time format
@@ -63,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: yilia
+theme: maupassant
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -71,24 +72,4 @@ deploy:
   type: git
   repository: https://github.com/ikoko/ikoko.github.io.git
   branch: master
-
-
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
-  
+ 
